@@ -1,5 +1,5 @@
 pipeline{
-    any agent
+    agent any
 
     environment {
         IMAGE_NAME = "manoj_s/microservices-platform/user-service:${GIT_COMMIT}"
